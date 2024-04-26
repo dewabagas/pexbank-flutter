@@ -34,7 +34,7 @@ class _TrendingSectionState extends State<TrendingSection> {
       cryptoName: 'ETH',
       cryptoShortName: 'ETH/USDT',
       currentPrice: 3847.50,
-      priceChangePercentage24h: -1.20,
+      priceChangePercentage24h: - 1.20,
       tradingVolume24h: 40289215,
       marketCap: 450670000000,
     ),

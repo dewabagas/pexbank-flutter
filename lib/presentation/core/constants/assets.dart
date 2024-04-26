@@ -5,6 +5,8 @@ class AppIcons {
   static const String icUserCircle = 'assets/icons/ic_user_circle.svg';
   static const String icLineChartRed = 'assets/icons/ic_line_chart_red.svg';
   static const String icLineChartGreen = 'assets/icons/ic_line_chart_green.svg';
+  static const String icBullishOne = 'assets/icons/ic_bullish_one.svg';
+  static const String icBullishTwo = 'assets/icons/ic_bullish_two.svg';
 }
 
 class BottomBar {
