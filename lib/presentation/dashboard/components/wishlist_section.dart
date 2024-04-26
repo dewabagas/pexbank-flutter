@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:pexbank/domain/crypto/models/crypto.dart';
 import 'package:pexbank/domain/crypto/models/crypto_listing.dart';
 import 'package:pexbank/presentation/core/constants/assets.dart';
 import 'package:pexbank/presentation/core/constants/styles.dart';

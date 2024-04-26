@@ -59,9 +59,6 @@ class ButtonPrimary extends StatelessWidget {
         borderRadius: BorderRadius.circular(16.r),
       );
     }
-    Color textColor = isOutlined
-        ? (color ?? AppColors.backgroundDark)
-        : (enabled ? AppColors.white : AppColors.black);
     return Container(
       decoration: decoration,
       margin: margin ?? EdgeInsets.zero,

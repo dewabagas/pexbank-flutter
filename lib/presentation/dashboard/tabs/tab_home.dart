@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:go_router/go_router.dart';
 import 'package:pexbank/presentation/core/constants/assets.dart';
 import 'package:pexbank/presentation/core/constants/styles.dart';
 import 'package:pexbank/presentation/core/styles/app_colors.dart';
@@ -10,7 +9,6 @@ import 'package:pexbank/presentation/dashboard/components/card_balance.dart';
 import 'package:pexbank/presentation/dashboard/components/news_section.dart';
 import 'package:pexbank/presentation/dashboard/components/trending_section.dart';
 import 'package:pexbank/presentation/dashboard/components/wishlist_section.dart';
-import 'package:pexbank/presentation/shared/buttons/button_primary.dart';
 import 'package:pexbank/presentation/shared/pages/draggable_page.dart';
 
 class TabHome extends StatefulWidget {
@@ -27,7 +25,7 @@ class _TabHomeState extends State<TabHome> {
         appBarColor: AppColors.backgroundDark,
         backgroundColor: AppColors.primary,
         alwaysShowLeadingAndAction: false,
-        headerExpandedHeight: 0.35,
+        headerExpandedHeight: 0.36,
         centerTitle: true,
         curvedBodyRadius: 32.r,
         title: renderHeader(),
@@ -37,7 +35,7 @@ class _TabHomeState extends State<TabHome> {
             padding: EdgeInsets.symmetric(horizontal: 24.w),
             child: Column(
               children: [
-                SizedBox(height: 44.h),
+                SizedBox(height: 60.h),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

@@ -8,7 +8,6 @@ class AppRouter {
   final GoRouter router = GoRouter(
     initialLocation: RoutePaths.splash,
     routerNeglect: true,
-    // debugLogDiagnostics: true,
     routes: [
       // CORE
       GoRoute(
@@ -22,6 +21,8 @@ class AppRouter {
     errorBuilder: (context, state) {
       return Container();
     },
-    redirect: (context, state) {},
+    redirect: (context, state) {
+      return null;
+    },
   );
 }

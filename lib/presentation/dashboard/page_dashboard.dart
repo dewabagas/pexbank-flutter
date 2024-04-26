@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pexbank/presentation/core/constants/assets.dart';
-import 'package:pexbank/presentation/core/constants/styles.dart';
 import 'package:pexbank/presentation/core/styles/app_colors.dart';
 import 'package:pexbank/presentation/dashboard/tabs/tab_home.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';

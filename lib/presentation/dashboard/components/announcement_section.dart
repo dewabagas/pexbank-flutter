@@ -1,11 +1,9 @@
-import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pexbank/domain/announcement/models/announcement.dart';
-import 'package:pexbank/domain/crypto/models/crypto.dart';
 import 'package:pexbank/presentation/core/constants/assets.dart';
 import 'package:pexbank/presentation/core/constants/styles.dart';
 import 'package:pexbank/presentation/core/styles/app_colors.dart';
@@ -18,7 +16,6 @@ class AnnouncementSection extends StatefulWidget {
 }
 
 class _AnnouncementSectionState extends State<AnnouncementSection> {
-  int _currentIndex = 0;
   final CarouselController _controller = CarouselController();
 
   final List<Announcement> listAnnouncement = [
@@ -129,25 +126,10 @@ class _AnnouncementSectionState extends State<AnnouncementSection> {
               viewportFraction: 0.4,
               onPageChanged: (index, reason) {
                 setState(() {
-                  _currentIndex = index;
                 });
               },
             ),
           ),
-        ],
-      ),
-    );
-  }
-
-  buildCryptoCard(Crypto crypto) {
-    return Container(
-      child: Column(
-        children: [
-          Row(
-            children: [
-              SvgPicture.asset(CryptoSymbols.icBtc),
-            ],
-          )
         ],
       ),
     );
