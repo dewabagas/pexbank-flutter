@@ -27,7 +27,7 @@ class _TabHomeState extends State<TabHome> {
         appBarColor: AppColors.backgroundDark,
         backgroundColor: AppColors.primary,
         alwaysShowLeadingAndAction: false,
-        headerExpandedHeight: 0.4,
+        headerExpandedHeight: 0.35,
         centerTitle: true,
         curvedBodyRadius: 32.r,
         title: renderHeader(),
