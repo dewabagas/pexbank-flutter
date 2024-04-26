@@ -21,7 +21,7 @@ class _TrendingSectionState extends State<TrendingSection> {
 
   final List<Crypto> listCryptos = [
     Crypto(
-      image: 'bitcoin_image_url',
+      image: CryptoSymbols.icBtc,
       cryptoName: 'BTC',
       cryptoShortName: 'BTC/USDT',
       currentPrice: 55789.20,
@@ -30,7 +30,7 @@ class _TrendingSectionState extends State<TrendingSection> {
       marketCap: 1040000000000,
     ),
     Crypto(
-      image: 'ethereum_image_url',
+      image: CryptoSymbols.icEth,
       cryptoName: 'ETH',
       cryptoShortName: 'ETH/USDT',
       currentPrice: 3847.50,
@@ -39,7 +39,7 @@ class _TrendingSectionState extends State<TrendingSection> {
       marketCap: 450670000000,
     ),
     Crypto(
-      image: 'tron_image_url',
+      image: CryptoSymbols.icTrx,
       cryptoName: 'TRX',
       cryptoShortName: 'TRX/USDT',
       currentPrice: 0.080,
@@ -115,7 +115,7 @@ class _TrendingSectionState extends State<TrendingSection> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        SvgPicture.asset(CryptoSymbols.icBtc),
+                        SvgPicture.asset('${item.image}'),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [

@@ -17,10 +17,12 @@ class BottomBar {
 
 class AppImages {
   static const String imgDoge = 'assets/images/img_doge.png';
+  static const String imgBackground = 'assets/images/img_background.svg';
 }
 
 class CryptoSymbols {
   static const String icBtc = 'assets/icons/ic_btc.svg';
   static const String icUsdt = 'assets/icons/ic_usdt.svg';
   static const String icTrx = 'assets/icons/ic_trx.svg';
+  static const String icEth = 'assets/icons/ic_eth.svg';
 }
