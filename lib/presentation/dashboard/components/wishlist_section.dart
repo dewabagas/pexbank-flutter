@@ -83,6 +83,7 @@ class _WishlistSectionState extends State<WishlistSection> {
             shrinkWrap: true,
             itemCount: listCryptos.length,
             padding: EdgeInsets.zero,
+            physics: const NeverScrollableScrollPhysics(),
             itemBuilder: (context, index) {
               final crypto = listCryptos[index];
               return Container(

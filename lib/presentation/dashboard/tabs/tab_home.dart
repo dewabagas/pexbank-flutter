@@ -7,6 +7,7 @@ import 'package:pexbank/presentation/core/constants/styles.dart';
 import 'package:pexbank/presentation/core/styles/app_colors.dart';
 import 'package:pexbank/presentation/dashboard/components/announcement_section.dart';
 import 'package:pexbank/presentation/dashboard/components/card_balance.dart';
+import 'package:pexbank/presentation/dashboard/components/news_section.dart';
 import 'package:pexbank/presentation/dashboard/components/trending_section.dart';
 import 'package:pexbank/presentation/dashboard/components/wishlist_section.dart';
 import 'package:pexbank/presentation/shared/buttons/button_primary.dart';
@@ -61,7 +62,10 @@ class _TabHomeState extends State<TabHome> {
           SizedBox(height: 16.h),
           const AnnouncementSection(),
           SizedBox(height: 16.h),
-          const WishlistSection()
+          const WishlistSection(),
+          SizedBox(height: 16.h),
+          const NewsSection(),
+          SizedBox(height: 32.h),
         ]);
   }
 

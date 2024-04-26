@@ -70,16 +70,8 @@ class _PageDashboardState extends State<PageDashboard> {
       resizeToAvoidBottomInset: true,
       stateManagement: true,
       hideNavigationBarWhenKeyboardShows: true,
-      decoration: NavBarDecoration(
+      decoration: const NavBarDecoration(
         colorBehindNavBar: Colors.transparent,
-        boxShadow: [
-          BoxShadow(
-            offset: const Offset(0, -5),
-            blurRadius: 14,
-            spreadRadius: 0,
-            color: const Color(0xFFCBCDCE).withOpacity(0.18),
-          ),
-        ],
       ),
       popAllScreensOnTapOfSelectedTab: true,
       popActionScreens: PopActionScreensType.all,
